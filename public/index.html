@@ -1,0 +1,45 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Soccer Day</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Today's Soccer Players</h1>
+
+    <section class="form-container">
+      <form class="new-player-form">
+        <div class="field">
+          <label>Type:</label>
+          <select id="type">
+            <option value="goalkeeper">Goalkeeper</option>
+            <option value="defender">Defender</option>
+            <option value="midfield">Midfield</option>
+            <option value="striker">Striker</option>
+          </select>
+        </div>
+
+        <div class="field">
+          <label>Name:</label>
+          <input type="text" id="name" />
+        </div>
+
+        <div class="field">
+          <label>Age:</label>
+          <input type="number" id="age" />
+        </div>
+
+        <button>Add</button>
+
+        <a href="https://github.com/welingtonlarsen">Welington Larsen</a>
+      </form>
+    </section>
+
+    <section class="players-list-wrapper">
+      <ul class="players-list"></ul>
+    </section>
+
+    <script type="module" src="app.js"></script>
+  </body>
+</html>
