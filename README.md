@@ -6,7 +6,7 @@
 
 <div align="center">
 
-# Soccer Players of the day
+# Soccer players of the day
 
 This project has been built to practice the use of typescript in a simple HTML project.
 
